@@ -1,14 +1,16 @@
 # HA-ElevenLabs-custom-TTS
 
-[![HACS](https://img.shields.io/badge/HACS-Custom-41BDF5?style=flat-square)](https://github.com/hacs/integration)
-[![Release](https://img.shields.io/github/v/release/loryanstrant/HA-ElevenLabs-Custom-TTS?style=flat-square)](https://github.com/loryanstrant/HA-ElevenLabs-Custom-TTS/releases)
-[![Release date](https://img.shields.io/github/release-date/loryanstrant/HA-ElevenLabs-Custom-TTS?style=flat-square)](https://github.com/loryanstrant/HA-ElevenLabs-Custom-TTS/releases)
-[![Downloads](https://img.shields.io/github/downloads/loryanstrant/HA-ElevenLabs-Custom-TTS/total?style=flat-square)](https://github.com/loryanstrant/HA-ElevenLabs-Custom-TTS/releases)
-[![License](https://img.shields.io/github/license/loryanstrant/HA-ElevenLabs-Custom-TTS?style=flat-square)](LICENSE)
-[![Last commit](https://img.shields.io/github/last-commit/loryanstrant/HA-ElevenLabs-Custom-TTS?style=flat-square)](https://github.com/loryanstrant/HA-ElevenLabs-Custom-TTS/commits)
-[![Stars](https://img.shields.io/github/stars/loryanstrant/HA-ElevenLabs-Custom-TTS?style=flat-square)](https://github.com/loryanstrant/HA-ElevenLabs-Custom-TTS/stargazers)
+> Maintained fork of [loryanstrant/HA-ElevenLabs-Custom-TTS](https://github.com/loryanstrant/HA-ElevenLabs-Custom-TTS), updated for current ElevenLabs models (v3, v4, Flash) with bug and security fixes.
 
-[![Open in HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=loryanstrant&repository=HA-ElevenLabs-Custom-TTS&category=integration)
+[![HACS](https://img.shields.io/badge/HACS-Custom-41BDF5?style=flat-square)](https://github.com/hacs/integration)
+[![Release](https://img.shields.io/github/v/release/jbenson1410/HA-ElevenLabs-Custom-TTS?style=flat-square)](https://github.com/jbenson1410/HA-ElevenLabs-Custom-TTS/releases)
+[![Release date](https://img.shields.io/github/release-date/jbenson1410/HA-ElevenLabs-Custom-TTS?style=flat-square)](https://github.com/jbenson1410/HA-ElevenLabs-Custom-TTS/releases)
+[![Downloads](https://img.shields.io/github/downloads/jbenson1410/HA-ElevenLabs-Custom-TTS/total?style=flat-square)](https://github.com/jbenson1410/HA-ElevenLabs-Custom-TTS/releases)
+[![License](https://img.shields.io/github/license/jbenson1410/HA-ElevenLabs-Custom-TTS?style=flat-square)](LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/jbenson1410/HA-ElevenLabs-Custom-TTS?style=flat-square)](https://github.com/jbenson1410/HA-ElevenLabs-Custom-TTS/commits)
+[![Stars](https://img.shields.io/github/stars/jbenson1410/HA-ElevenLabs-Custom-TTS?style=flat-square)](https://github.com/jbenson1410/HA-ElevenLabs-Custom-TTS/stargazers)
+
+[![Open in HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=jbenson1410&repository=HA-ElevenLabs-Custom-TTS&category=integration)
 
 An ElevenLabs TTS integration for Home Assistant that provides enhanced voice discovery and integrates with Home Assistant's native TTS platform.
 
@@ -53,7 +55,7 @@ This custom component provides:
 1. Open HACS in your Home Assistant instance
 2. Go to "Integrations"
 3. Click the three dots menu and select "Custom repositories"
-4. Add `https://github.com/loryanstrant/HA-ElevenLabs-Custom-TTS` as repository
+4. Add `https://github.com/jbenson1410/HA-ElevenLabs-Custom-TTS` as repository
 5. Set category to "Integration"
 6. Click "Add"
 7. Find "ElevenLabs Custom TTS" in the integration list and install it
@@ -64,7 +66,7 @@ This custom component provides:
 
 Or replace steps 1-6 with this:
 
-[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=loryanstrant&repository=HA-ElevenLabs-Custom-TTS&category=integration)
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=jbenson1410&repository=HA-ElevenLabs-Custom-TTS&category=integration)
 
 ### Manual Installation
 
@@ -441,4 +443,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support
 
-If you encounter any issues, please report them on the [GitHub Issues page](https://github.com/loryanstrant/HA-ElevenLabs-Custom-TTS/issues).
+If you encounter any issues, please report them on the [GitHub Issues page](https://github.com/jbenson1410/HA-ElevenLabs-Custom-TTS/issues).
