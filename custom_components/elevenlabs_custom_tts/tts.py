@@ -59,9 +59,8 @@ def _merge_options(
     call_options: options passed in the tts.speak call, e.g. {"speed": 1.2}
                   (when a profile is used, voice/voice_profile are already stripped)
     """
-    # TODO(you): choose the precedence when a profile AND per-call options are present.
-    # Current behaviour preserves the original integration: a profile wins outright and
-    # per-call options are ignored.
+    # Preserves the original behaviour: a profile wins outright and per-call
+    # options are ignored when a profile is selected.
     if profile is not None:
         return {**defaults, **profile}
     return {**defaults, **call_options}
@@ -75,16 +74,8 @@ class ElevenLabsTTSProvider(TextToSpeechEntity):
         self.hass = hass
         self._client = client
         self._config_entry = config_entry
-        # Set the entity name for entity ID generation
-        self._name = "elevenlabs_custom_tts"
-        # Set the friendly name that should appear in UI and registry
+        # Shown in the UI; also slugifies to the tts.elevenlabs_custom_tts entity_id
         self._attr_name = "ElevenLabs Custom TTS"
-        self._friendly_name = "ElevenLabs Custom TTS"
-
-    @property
-    def name(self) -> str:
-        """Return the name of the entity (for entity ID)."""
-        return self._name
 
     @property
     def unique_id(self) -> str:

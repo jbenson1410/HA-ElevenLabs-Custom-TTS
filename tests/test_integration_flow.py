@@ -52,6 +52,13 @@ async def test_migration_keeps_entity_id(hass: HomeAssistant, mock_client) -> No
     assert len(er.async_entries_for_config_entry(registry, entry.entry_id)) == 1
 
 
+async def test_entity_friendly_name(hass: HomeAssistant, mock_client) -> None:
+    await _setup(hass)
+    state = hass.states.get("tts.elevenlabs_custom_tts")
+    assert state is not None
+    assert state.attributes["friendly_name"] == "ElevenLabs Custom TTS"
+
+
 async def _setup(hass, profiles=None):
     entry = MockConfigEntry(
         domain=DOMAIN, version=2, unique_id="x",
